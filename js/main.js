@@ -31,14 +31,14 @@ document.getElementById("btnRight").addEventListener("click", function () {
 });
 
 document.getElementById("btnLeft").addEventListener("click", function () {
-    console.log("avanti");
-    if (currentImg < images.length - 1) {
+    console.log("indietro");
+    if (currentImg > 0) {
         images[currentImg].classList.remove("blockImage");
-        currentImg++;
+        currentImg--;
         images[currentImg].classList.add("blockImage");
-    }else if (currentImg == images.length - 1) {
+    }else if (currentImg == 0) {
         images[currentImg].classList.remove("blockImage");
-        currentImg = 0;
+        currentImg = images.length - 1;
         images[currentImg].classList.add("blockImage");
     }
 });
