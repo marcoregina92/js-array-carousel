@@ -10,14 +10,14 @@ body {
 }
 
 
-#box-image {
+#boxImage {
     width: 800px;
     height: 400px;
     margin: 0 auto;
     position: relative;
 }
 
-#box-image img{
+#boxImage img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -25,18 +25,18 @@ body {
     display: none;
 }
 
-#box-image img.block-image {
+#boxImage img.blockImage {
     display: block;
 }
 
-.btn-right {
+#btnRight {
     position: absolute;
-    top: 178px;
-    right: 10px;
+    top: 230px;
+    right: 520px;
 }
 
-.btn-left {
+#btnLeft {
     position: absolute;
-    top: 178px;
-    left: 10px;
+    top: 230px;
+    left: 520px;
 }
